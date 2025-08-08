@@ -95,6 +95,9 @@ Go to: [http://localhost:4200](http://localhost:4200)
 
 <img width="1166" height="681" alt="image" src="https://github.com/user-attachments/assets/c2201e38-c0fd-4c9d-8b56-f1ac8e3291ca" />
 
+<img width="1523" height="667" alt="image" src="https://github.com/user-attachments/assets/ea4c6747-82fa-471a-bdf5-37a8fac66bee" />
+
+
 
 
 
