@@ -1,27 +1,113 @@
-# Sampleapp1
+# 🎯 TickTick Buddy - A Funky Angular 14 To-Do List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+> Welcome to **TickTick Buddy**, a vibrant and feature-rich To-Do List app built with Angular 14.2.13. This app is designed with style and functionality in mind, offering Google login, editable tasks, favorites ⭐, localStorage support, and a funky SCSS-styled UI powered by Angular Material.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📦 Tech Stack
 
-## Code scaffolding
+| Technology       | Purpose                                   |
+|------------------|--------------------------------------------|
+| Angular          | Frontend framework                        |
+| Angular CLI 14.2 | Application scaffolding & development     |
+| Angular Material | Ready-to-use UI components                |
+| SCSS             | Custom stylish and responsive styling     |
+| LocalStorage     | Persistent task storage in the browser    |
+| Git & GitHub     | Version control and collaboration         |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🚀 Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+✅ **Login Page** 
+📝 Add, Edit, and Delete tasks  
+⭐ Mark tasks as Favorite  
+💾 LocalStorage saves tasks between sessions  
+🎨 Stylish and funky UI with custom SCSS  
+📱 Mobile-friendly and responsive layout  
+🎯 Task Completion Indicator  
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📁 Folder Structure
 
-## Running end-to-end tests
+```bash
+src/
+├── app/
+│   ├── components/
+│   │   ├── todo-form/          # Task input form component
+│   │   ├── todo-list/          # Task list display
+│   │   ├── header/             # App header
+│   ├── pages/
+│   │   ├── login/              # Login page component
+│   │   ├── todo/               # Main todo page
+│   ├── services/
+│   │   ├── auth.service.ts     # Auth (Google/Firebase)
+│   │   ├── todo.service.ts     # Task operations & LocalStorage
+│   └── app-routing.module.ts   # Routing module
+├── assets/
+│   └── images/                 # Any UI assets
+├── environments/               # Firebase configs etc.
+└── styles.scss                 # Global styles and theming
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🛠️ Development Setup
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/your-username/ticktick-buddy.git
+cd ticktick-buddy
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+```bash
+ng serve
+```
+
+Go to: [http://localhost:4200](http://localhost:4200)
+
+---
+
+## 📜 Angular CLI Commands
+
+| Command                          | Description                            |
+|----------------------------------|----------------------------------------|
+| `ng serve`                       | Run dev server with live reload        |
+| `ng build`                       | Build app into `dist/` folder          |
+| `ng test`                        | Run unit tests via Karma               |
+| `ng e2e`                         | Run end-to-end tests (needs config)    |
+| `ng generate component <name>`   | Create new component                   |
+| `ng generate service <name>`     | Create new service                     |
+
+---
+
+## 📷 Screenshots
+
+
+
+---
+
+## 👨‍💻 Author
+
+** Dhanush (TickTick-Buddy)**  
+🌐 GitHub: [@dhanush245](https://github.com/dhanush245)  
+📍 Location: Chennai, TamilNadu, India  
+
+---
+
+## 📃 License
+
+This project is licensed under the **MIT License** – you’re free to use, modify and distribute!
+
+---
+
