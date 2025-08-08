@@ -93,6 +93,11 @@ Go to: [http://localhost:4200](http://localhost:4200)
 
 ## 📷 Screenshots
 
+<img width="1166" height="681" alt="image" src="https://github.com/user-attachments/assets/c2201e38-c0fd-4c9d-8b56-f1ac8e3291ca" />
+
+
+
+
 
 
 ---
